@@ -1,0 +1,112 @@
+{
+  "main": {
+    "id": "f55e79826b792fe8",
+    "type": "split",
+    "children": [
+      {
+        "id": "02ade73d4ac8cb68",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "02_编程/vue+cesium/vue+cesium-01开发环境搭建.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5aa3cb21482c6ed9",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b05af3b8796b4b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab8512978d940e41",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2179865c9321bc2f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c71c2c390764d8d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "c49fc2af11ae5a25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae675c55f0ceef8b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02_编程/vue+cesium/vue+cesium-01开发环境搭建.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "24ac911c23647829",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02_编程/vue+cesium/vue+cesium-01开发环境搭建.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "02ade73d4ac8cb68",
+  "lastOpenFiles": [
+    "02_编程/vue+cesium/vue+cesium-01开发环境搭建.md",
+    "01_随笔/十大顶级金融纪录片.md",
+    "01_随笔/送礼感恩话术50条.md",
+    "02_编程/Clowd.Squirrel.md",
+    "未命名.md",
+    "02_编程/HttpWebRequest、WebClient、RestSharp、HttpClient区别和用途.md",
+    "02_编程/日志框架体系整理( 基础 ).md",
+    "02_编程/GitHub 上都有哪些值得关注学习的 Java 开源项目？.md"
+  ]
+}

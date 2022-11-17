@@ -1,0 +1,10 @@
+{
+  "menuCommands": [
+    {
+      "id": "editor:set-heading",
+      "name": "小标题",
+      "icon": "heading-glyph"
+    }
+  ],
+  "hideTitles": []
+}

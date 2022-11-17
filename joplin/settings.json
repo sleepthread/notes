@@ -1,0 +1,51 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"locale": "zh_CN",
+	"api.token": "f735304ebd35fad498d7c537a3d5388c79108835c3d8d90ddac250875eec1c1e9487b466826960d2eb235d245a8a4a3672afa70bd7834bc58ffdfef4a8a82adf",
+	"markdown.plugin.softbreaks": false,
+	"markdown.plugin.typographer": false,
+	"spellChecker.language": "en-US",
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "tempContainer-beCScKqwp8Y6WYTbM9oBad",
+				"children": [
+					{
+						"key": "sideBar",
+						"visible": true,
+						"height": 397
+					},
+					{
+						"key": "noteList",
+						"visible": true
+					}
+				],
+				"width": 203,
+				"visible": true
+			},
+			{
+				"key": "editor",
+				"visible": true
+			}
+		],
+		"visible": true
+	},
+	"noteVisiblePanes": [
+		"editor",
+		"viewer"
+	],
+	"sync.target": 9,
+	"spellChecker.enabled": false,
+	"editor.codeView": false,
+	"uncompletedTodosOnTop": false,
+	"showCompletedTodos": false,
+	"showNoteCounts": false,
+	"layoutButtonSequence": 2,
+	"richTextBannerDismissed": true,
+	"theme": 1,
+	"clipperServer.autoStart": true,
+	"editor": "\"D:\\Program Files\\Typora\\Typora.exe\"",
+	"sync.9.path": "http://101.200.161.131:22300/",
+	"sync.9.username": "zhujun0405@gmail.com"
+}
