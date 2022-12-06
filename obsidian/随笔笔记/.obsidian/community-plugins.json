@@ -2,5 +2,7 @@
   "markdown-prettifier",
   "cm-editor-syntax-highlight-obsidian",
   "cmenu-plugin",
-  "remotely-save"
+  "remotely-save",
+  "obsidian-highlightpublicnotes-plugin",
+  "obsidian-mind-map"
 ]

@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "21e6e8adf8b2dc96",
+        "id": "dd6ac5b558bd0b7b",
         "type": "tabs",
         "children": [
           {
-            "id": "02ade73d4ac8cb68",
+            "id": "b8dd1c436dd0e099",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_编程/GitHub 上都有哪些值得关注学习的 Java 开源项目？.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_编程/GitHub 上都有哪些值得关注学习的 Java 开源项目？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "02_编程/GitHub 上都有哪些值得关注学习的 Java 开源项目？.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -106,15 +99,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "02ade73d4ac8cb68",
+  "active": "b8dd1c436dd0e099",
   "lastOpenFiles": [
+    "02_编程/Clowd.Squirrel.md",
+    "01_随笔/送礼感恩话术50条.md",
+    "01_随笔/十大顶级金融纪录片.md",
+    "02_编程/vue+cesium/vue+cesium-01开发环境搭建.md",
+    "02_编程/日志框架体系整理( 基础 ).md",
     "02_编程/HttpWebRequest、WebClient、RestSharp、HttpClient区别和用途.md",
     "02_编程/GitHub 上都有哪些值得关注学习的 Java 开源项目？.md",
-    "02_编程/Clowd.Squirrel.md",
-    "02_编程/日志框架体系整理( 基础 ).md",
-    "02_编程/vue+cesium/vue+cesium-01开发环境搭建.md",
-    "01_随笔/十大顶级金融纪录片.md",
-    "01_随笔/送礼感恩话术50条.md",
     "未命名.md"
   ]
 }
