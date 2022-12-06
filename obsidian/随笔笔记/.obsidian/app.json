@@ -2,5 +2,8 @@
   "promptDelete": false,
   "showLineNumber": true,
   "readableLineLength": false,
-  "foldHeading": true
+  "foldHeading": true,
+  "attachmentFolderPath": "./files",
+  "newFileLocation": "root",
+  "newFileFolderPath": ""
 }
