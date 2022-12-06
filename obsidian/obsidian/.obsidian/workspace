@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "24a89c9b8f5f6c69",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9eb8831bac0f4e6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1-随笔/EntityFrameworkCore扩展.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "81da969491dcfd46",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7d17001212956d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "626e7ebbab3dcda4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fdeea939c7465b12",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8a954b2886428113",
+    "type": "split",
+    "children": [
+      {
+        "id": "5eb65efc4037341a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c01f445873007444",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1-随笔/EntityFrameworkCore扩展.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c9eb8831bac0f4e6",
+  "lastOpenFiles": [
+    "1-随笔/EntityFrameworkCore扩展.md",
+    "0-默认笔记.md"
+  ]
+}
