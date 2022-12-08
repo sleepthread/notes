@@ -4,5 +4,9 @@
   "cmenu-plugin",
   "remotely-save",
   "obsidian-highlightpublicnotes-plugin",
-  "obsidian-mind-map"
+  "obsidian-mind-map",
+  "obsidian-excalidraw-plugin",
+  "table-editor-obsidian",
+  "dataview",
+  "calendar"
 ]

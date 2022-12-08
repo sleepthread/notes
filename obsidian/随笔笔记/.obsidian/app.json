@@ -3,7 +3,7 @@
   "showLineNumber": true,
   "readableLineLength": false,
   "foldHeading": true,
-  "attachmentFolderPath": "./files",
-  "newFileLocation": "root",
-  "newFileFolderPath": ""
+  "attachmentFolderPath": "attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00_notes"
 }
