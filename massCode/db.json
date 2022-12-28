@@ -9,8 +9,56 @@
       "isSystem": false,
       "createdAt": 1670323247744,
       "updatedAt": 1670323247744
+    },
+    {
+      "name": "Vue_Element",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "javascript",
+      "id": "dPYnLzCJ",
+      "createdAt": 1672194131937,
+      "updatedAt": 1672194737240
     }
   ],
-  "snippets": [],
-  "tags": []
+  "snippets": [
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "dPYnLzCJ",
+      "tagsIds": [
+        "W6FTkU1X"
+      ],
+      "description": null,
+      "name": "表单验证",
+      "content": [
+        {
+          "label": "数字",
+          "language": "plain_text",
+          "value": "dscc: [\n  {type: 'number', message: '请输入数字', trigger: 'blur', transform: (value) => Number(value)}\n],"
+        },
+        {
+          "label": "必填",
+          "language": "plain_text",
+          "value": "yszmc: [\n  {required: true, message: '请输入名称', trigger: 'blur'}\n],"
+        },
+        {
+          "label": "经纬度",
+          "language": "plain_text",
+          "value": "  lgtd: [\n    {\n      type: 'number',\n      message: '请输入经度,数字且取值范围在0-180',\n      min: 0,\n      max: 180,\n      trigger: 'blur',\n      transform: (value) => Number(value)\n    }\n  ],\n  lttd: [\n    {\n      type: 'number',\n      message: '请输入纬度,数字且取值范围在0-90',\n      min: 0,\n      max: 90,\n      trigger: 'blur',\n      transform: (value) => Number(value)\n    }\n  ],"
+        }
+      ],
+      "id": "Lxpb30-d",
+      "createdAt": 1672194146828,
+      "updatedAt": 1672194411454
+    }
+  ],
+  "tags": [
+    {
+      "name": "Vue",
+      "id": "W6FTkU1X",
+      "createdAt": 1672194411421,
+      "updatedAt": 1672194411421
+    }
+  ]
 }
