@@ -297,4 +297,6 @@
  ;;     ;parse `.` in file name as slash `/` in page title
  :file/name-format :triple-lowbar
  :journal/page-title-format "yyyy年MM月dd日"
+ :feature/enable-whiteboards? true
+ :feature/enable-journals? true
  }
