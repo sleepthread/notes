@@ -19,6 +19,16 @@
       "id": "dPYnLzCJ",
       "createdAt": 1672194131937,
       "updatedAt": 1672194737240
+    },
+    {
+      "name": "_备份_智慧水文站",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "KK5Mq_Mz",
+      "createdAt": 1675827807056,
+      "updatedAt": 1675827827820
     }
   ],
   "snippets": [
@@ -51,6 +61,24 @@
       "id": "Lxpb30-d",
       "createdAt": 1672194146828,
       "updatedAt": 1672194411454
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "KK5Mq_Mz",
+      "tagsIds": [],
+      "description": null,
+      "name": "累计雨量排版-竖版",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "plain_text",
+          "value": "\n <li style=\"display: none;width:210px;height:225px;border-right:1px solid #ffffff;border-bottom: 1px solid #ffffff;\">\n            <i class=\"i_vertical\"></i>\n            <a href=\"###\" class=\"i_ttxt\">累计雨量查询</a>\n            <div :id=\"iddown2\" style=\"margin-top: 8px;border-top:1px dashed #ffffff;\">\n              <table>\n                <tr>\n                  <td>开始时间:</td>\n                </tr>\n                <tr>\n                  <td>\n                    <el-input v-model=\"keyword\" placeholder=\"请输入标题\"></el-input>\n                  </td>\n                </tr>\n                <tr>\n                  <td>结束时间:</td>\n                </tr>\n                <tr>\n                  <td>\n                    <el-input v-model=\"keyword\" placeholder=\"请输入标题\"></el-input>\n                  </td>\n                </tr>\n                <tr>\n                  <td style=\"padding-top: 5px;text-align: center;\">\n                    <el-button icon=\"el-icon-search\" type=\"primary\" style=\"margin-left: 10px;\" @click=\"onBtnClick\">查询\n                    </el-button>\n                  </td>\n                </tr>\n              </table>\n            </div>\n          </li>"
+        }
+      ],
+      "id": "0vZCeGUd",
+      "createdAt": 1675827833301,
+      "updatedAt": 1675827914222
     }
   ],
   "tags": [

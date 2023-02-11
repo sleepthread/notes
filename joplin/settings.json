@@ -37,7 +37,7 @@
 	],
 	"sync.target": 9,
 	"spellChecker.enabled": false,
-	"editor.codeView": false,
+	"editor.codeView": true,
 	"uncompletedTodosOnTop": false,
 	"showCompletedTodos": false,
 	"showNoteCounts": false,
