@@ -1,13 +1,15 @@
 [
   "markdown-prettifier",
   "cm-editor-syntax-highlight-obsidian",
-  "cmenu-plugin",
   "remotely-save",
   "obsidian-highlightpublicnotes-plugin",
-  "obsidian-mind-map",
   "obsidian-excalidraw-plugin",
   "table-editor-obsidian",
   "dataview",
   "calendar",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "obsidian42-brat",
+  "editing-toolbar",
+  "obsidian-custom-frames",
+  "obsidian-weread-plugin"
 ]

@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a2c852bffe73c8c8",
+        "id": "9ad8b8ceca9472ca",
         "type": "tabs",
         "children": [
           {
-            "id": "4acc4c595dbe43ca",
+            "id": "d811a93132ee947c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_notes/测试文档存放位置.md",
-                "mode": "source",
-                "source": false
+                "file": "04_微信读书/微信读书.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_notes/测试文档存放位置.md",
+                "file": "04_微信读书/微信读书.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_notes/测试文档存放位置.md"
+                "file": "04_微信读书/微信读书.md"
               }
             }
           },
@@ -107,7 +107,7 @@
             }
           },
           {
-            "id": "268c70f81b154b6a",
+            "id": "7d4302771f71228b",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -115,7 +115,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -124,28 +124,38 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
       "remotely-save:Remotely Save": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "obsidian42-brat:BRAT": false,
+      "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "ab8512978d940e41",
+  "active": "d811a93132ee947c",
   "lastOpenFiles": [
-    "00_notes/快速背单词--Excel法.md",
-    "00_notes/默认新建文件存放位置，可以定期整理.md",
-    "00_notes/测试文档存放位置.md",
+    "04_微信读书/如何有效整理信息-奥野宣之.md",
+    "04_微信读书/人类简史：从动物到上帝-尤瓦尔·赫拉利.md",
+    "04_微信读书/微信读书.md",
+    "04_微信读书",
+    "00_notes/未命名.md",
+    "02_编程/日志框架体系整理( 基础 ).md",
     "02_编程/HttpWebRequest、WebClient、RestSharp、HttpClient区别和用途.md",
+    "01_随笔/十大顶级金融纪录片.md",
+    "attachments/Pasted image 20221208125954.png",
+    "attachments/Pasted image 20221208125643.png",
+    "attachments/Pasted image 20221208125530.png",
+    "00_notes/测试文档存放位置.md",
+    "00_notes/默认新建文件存放位置，可以定期整理.md",
+    "00_notes/快速背单词--Excel法.md",
     "02_编程/GitHub 上都有哪些值得关注学习的 Java 开源项目？.md",
     "02_编程/Clowd.Squirrel.md",
-    "02_编程/日志框架体系整理( 基础 ).md",
     "02_编程/vue+cesium/vue+cesium-01开发环境搭建.md",
-    "01_随笔/十大顶级金融纪录片.md",
     "01_随笔/送礼感恩话术50条.md"
   ]
 }

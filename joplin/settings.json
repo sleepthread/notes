@@ -47,5 +47,8 @@
 	"clipperServer.autoStart": true,
 	"editor": "\"D:\\Program Files\\Typora\\Typora.exe\"",
 	"sync.9.path": "http://101.200.161.131:22300/",
-	"sync.9.username": "zhujun0405@gmail.com"
+	"sync.9.username": "zhujun0405@gmail.com",
+	"spellChecker.languages": [
+		"en-US"
+	]
 }
