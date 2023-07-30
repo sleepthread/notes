@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "9ad8b8ceca9472ca",
+        "id": "9539218bcf9278d4",
         "type": "tabs",
         "children": [
           {
-            "id": "d811a93132ee947c",
+            "id": "3d9594ce9f7142e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_微信读书/微信读书.md",
-                "mode": "preview",
-                "source": true
+                "file": "00_notes/边缘计算-薅羊毛.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -56,6 +56,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "ca3b8a316b0ea6ee",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -77,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04_微信读书/微信读书.md",
+                "file": "00_notes/边缘计算-薅羊毛.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_微信读书/微信读书.md"
+                "file": "00_notes/边缘计算-薅羊毛.md"
               }
             }
           },
@@ -107,51 +115,62 @@
             }
           },
           {
-            "id": "7d4302771f71228b",
+            "id": "a228a2d75c6f98d3",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-微信读书",
+              "state": {}
+            }
+          },
+          {
+            "id": "090c8eb5b7d85a3a",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 533.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "canvas:新建白板": false,
       "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
+      "graph:查看关系图谱": false,
       "remotely-save:Remotely Save": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": false,
+      "obsidian-custom-frames:Open 微信读书": false,
       "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "d811a93132ee947c",
+  "active": "3d9594ce9f7142e9",
   "lastOpenFiles": [
+    "00_notes/FRP安装记录.md",
+    "00_notes/边缘计算-薅羊毛.md",
+    "03_日记/2022-12-08.md",
+    "03_日记/2023-07-17.md",
+    "00_notes/博客多平台发布收集资料.md",
+    "00_notes/JAVA8中的DATE  LocalDateTIme.md",
+    "00_notes/Visual Studio Code 插件汇总.md",
+    "00_notes/默认新建文件存放位置，可以定期整理.md",
+    "04_微信读书/微信读书.md",
+    "未命名.canvas",
     "04_微信读书/如何有效整理信息-奥野宣之.md",
     "04_微信读书/人类简史：从动物到上帝-尤瓦尔·赫拉利.md",
-    "04_微信读书/微信读书.md",
     "04_微信读书",
-    "00_notes/未命名.md",
     "02_编程/日志框架体系整理( 基础 ).md",
     "02_编程/HttpWebRequest、WebClient、RestSharp、HttpClient区别和用途.md",
     "01_随笔/十大顶级金融纪录片.md",
     "attachments/Pasted image 20221208125954.png",
     "attachments/Pasted image 20221208125643.png",
     "attachments/Pasted image 20221208125530.png",
-    "00_notes/测试文档存放位置.md",
-    "00_notes/默认新建文件存放位置，可以定期整理.md",
     "00_notes/快速背单词--Excel法.md",
     "02_编程/GitHub 上都有哪些值得关注学习的 Java 开源项目？.md",
     "02_编程/Clowd.Squirrel.md",

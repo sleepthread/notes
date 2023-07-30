@@ -5,5 +5,7 @@
   "foldHeading": true,
   "attachmentFolderPath": "attachments",
   "newFileLocation": "folder",
-  "newFileFolderPath": "00_notes"
+  "newFileFolderPath": "00_notes",
+  "showInlineTitle": false,
+  "defaultViewMode": "preview"
 }

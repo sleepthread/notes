@@ -35,7 +35,7 @@
 		"editor",
 		"viewer"
 	],
-	"sync.target": 9,
+	"sync.target": 3,
 	"spellChecker.enabled": false,
 	"editor.codeView": true,
 	"uncompletedTodosOnTop": false,
@@ -50,5 +50,7 @@
 	"sync.9.username": "zhujun0405@gmail.com",
 	"spellChecker.languages": [
 		"en-US"
-	]
+	],
+	"sync.resourceDownloadMode": "always",
+	"sync.maxConcurrentConnections": 10
 }

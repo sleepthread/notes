@@ -4,9 +4,9 @@
       "url": "https://weread.qq.com/",
       "displayName": "微信读书",
       "icon": "book",
-      "hideOnMobile": true,
-      "addRibbonIcon": false,
-      "openInCenter": false,
+      "hideOnMobile": false,
+      "addRibbonIcon": true,
+      "openInCenter": true,
       "zoomLevel": 1,
       "forceIframe": false,
       "customCss": ""
