@@ -1,0 +1,86 @@
+I 2023/11/28 10:27:55 working.go:121: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/11/28 10:27:55 runtime.go:74: kernel is booting:
+    * ver [2.10.16]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [18204]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\WindowsApps\89C2A984.SiYuan_2.10.16.0_x64__1qfd3tsw4ngc2\app\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\notes\SiYuan]
+I 2023/11/28 10:27:55 conf.go:110: initialized the specified language [zh_CN]
+I 2023/11/28 10:27:55 conf.go:285: using Microsoft Store edition
+I 2023/11/28 10:27:56 runtime.go:128: use network proxy [system]
+I 2023/11/28 10:27:56 serve.go:119: kernel [pid=18204] http server [127.0.0.1:51094] is booting
+I 2023/11/28 10:27:56 database.go:89: the database structure is changed, rebuilding database...
+I 2023/11/28 10:27:56 database.go:109: reinitialized database [E:\notes\SiYuan\temp\siyuan.db]
+I 2023/11/28 10:27:56 conf.go:735: database size [4.1 kB], tree/block count [0/0]
+I 2023/11/28 10:27:56 working.go:159: kernel booted
+I 2023/11/28 10:27:57 serve.go:132: reverse proxy server [127.0.0.1:6806] is booting
+I 2023/11/28 10:27:57 box.go:79: auto stat [trees=0, blocks=0, dataSize=37 kB, assetsSize=0 B]
+I 2023/11/28 10:27:57 disk.go:33: disk usage [total=322 GB, used=219 GB, free=103 GB]
+I 2023/11/28 10:27:59 pandoc.go:155: initialized built-in pandoc [ver=3.1.1, bin=E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/11/28 10:27:59 conf.go:957: pandoc initialized, set pandoc bin to [E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/11/28 10:27:59 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.04s], tree [count=64, size=1.2 MB]
+I 2023/11/28 10:28:00 index.go:206: resolved refs [29] in [100ms]
+W 2023/11/28 10:28:11 blocktree.go:548: save block tree [size=672 kB] to [E:\notes\SiYuan\temp\blocktree], elapsed [9.05s]
+I 2023/11/28 10:30:55 conf.go:497: exiting kernel [force=false, execInstallPkg=0]
+I 2023/11/28 10:30:55 database.go:1218: closed database
+I 2023/11/28 10:30:55 conf.go:892: cleared workspace temp
+I 2023/11/28 10:30:55 sync.go:672: sync websocket closed
+I 2023/12/06 17:49:14 working.go:145: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/12/06 17:49:14 runtime.go:74: kernel is booting:
+    * ver [2.11.0]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [16404]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\WindowsApps\89C2A984.SiYuan_2.11.0.0_x64__1qfd3tsw4ngc2\app\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\notes\SiYuan]
+I 2023/12/06 17:49:15 conf.go:253: upgraded from version [2.10.16] to [2.11.0]
+I 2023/12/06 17:49:15 conf.go:285: using Microsoft Store edition
+I 2023/12/06 17:49:15 runtime.go:128: use network proxy [system]
+I 2023/12/06 17:49:15 serve.go:119: kernel [pid=16404] http server [127.0.0.1:55330] is booting
+I 2023/12/06 17:49:16 blocktree.go:494: read block tree [672 kB] to [E:\notes\SiYuan\temp\blocktree], elapsed [0.74s]
+I 2023/12/06 17:49:16 conf.go:735: database size [7.2 MB], tree/block count [64/2382]
+I 2023/12/06 17:49:16 working.go:183: kernel booted
+I 2023/12/06 17:49:16 serve.go:132: reverse proxy server [127.0.0.1:6806] is booting
+I 2023/12/06 17:49:17 box.go:79: auto stat [trees=64, blocks=2382, dataSize=3.4 MB, assetsSize=2.0 MB]
+I 2023/12/06 17:49:17 disk.go:33: disk usage [total=322 GB, used=219 GB, free=103 GB]
+I 2023/12/06 17:49:18 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.34s], tree [count=64, size=1.2 MB]
+I 2023/12/06 17:49:21 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/12/06 17:49:21 conf.go:957: pandoc initialized, set pandoc bin to [E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+W 2023/12/06 17:49:28 blocktree.go:548: save block tree [size=631 kB] to [E:\notes\SiYuan\temp\blocktree], elapsed [12.16s]
+W 2023/12/06 17:59:16 history.go:531: history dir [E:\notes\SiYuan\history] not exist
+W 2023/12/06 18:09:16 history.go:531: history dir [E:\notes\SiYuan\history] not exist
+I 2023/12/06 18:15:33 conf.go:497: exiting kernel [force=false, execInstallPkg=0]
+I 2023/12/06 18:15:33 database.go:1218: closed database
+I 2023/12/06 18:15:33 conf.go:892: cleared workspace temp
+I 2023/12/06 18:15:33 sync.go:672: sync websocket closed

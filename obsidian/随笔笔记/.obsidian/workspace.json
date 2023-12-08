@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9539218bcf9278d4",
+        "id": "495c6f209514ce79",
         "type": "tabs",
         "children": [
           {
-            "id": "3d9594ce9f7142e9",
+            "id": "7a49dc9181148e89",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_notes/边缘计算-薅羊毛.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_notes/边缘计算-薅羊毛.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "00_notes/边缘计算-薅羊毛.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,31 +143,39 @@
       "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "3d9594ce9f7142e9",
+  "active": "7a49dc9181148e89",
   "lastOpenFiles": [
-    "00_notes/FRP安装记录.md",
-    "00_notes/边缘计算-薅羊毛.md",
-    "03_日记/2022-12-08.md",
-    "03_日记/2023-07-17.md",
-    "00_notes/博客多平台发布收集资料.md",
-    "00_notes/JAVA8中的DATE  LocalDateTIme.md",
-    "00_notes/Visual Studio Code 插件汇总.md",
-    "00_notes/默认新建文件存放位置，可以定期整理.md",
-    "04_微信读书/微信读书.md",
-    "未命名.canvas",
-    "04_微信读书/如何有效整理信息-奥野宣之.md",
-    "04_微信读书/人类简史：从动物到上帝-尤瓦尔·赫拉利.md",
-    "04_微信读书",
-    "02_编程/日志框架体系整理( 基础 ).md",
-    "02_编程/HttpWebRequest、WebClient、RestSharp、HttpClient区别和用途.md",
-    "01_随笔/十大顶级金融纪录片.md",
+    "00_notes/重磅推荐：GitHub Top100  优质开源项目！.md",
+    "00_notes/java生成word的几种方案 - 又见君 - 博客园.md",
+    "00_notes/未命名 1.md",
+    "00_notes/未命名.md",
+    "00_notes/软件开发者常用的工具有那些.md",
+    "00_notes/初中班主任的忠告：但凡能考上重点高中的孩子，都是从初一开始规划的.md",
+    "00_notes/Navicat16试用期过了 - EugeneDan - 博客园.md",
+    "00_notes/有哪些好用的AI智能工具或软件推荐.md",
+    "00_notes/关于账号安全的一些思考.md",
+    "00_notes/有没有程序员愿意分享一下你的生活.md",
+    "00_notes/类似Excel 前端表格控件.md",
+    "00_notes/【狗蛋】搭建一个属于家庭服务器，硬件、软件、配置推荐【万字长文持续更新】.md",
+    "00_notes/ChatGPT 资源汇总.md",
+    "00_notes/内网穿透 资源汇总.md",
+    "00_notes/VUE ElementUI Form 复杂表单.md",
+    "00_notes/SQLserver中字符串查找功能patindex和charindex的区别.md",
+    "00_notes/AI 工具箱：20 款强大、好用的 AI  工具，打造你的 AI 工作流.md",
+    "00_notes/有哪些你看过3遍以上书籍 - 知乎.md",
+    "00_notes/2022年热销白酒建议入手价大全（史上最全）.md",
+    "00_notes/静态博客和文档.md",
+    "00_notes/CloudFare+Vercel.md",
+    "00_notes/一键放大！8 款免费好用的AI图像高清放大工具.md",
+    "00_notes/【Upscayl】开源图像放大修复工具（free）.md",
+    "00_notes/12个中文+4个英文书籍资源网站.md",
     "attachments/Pasted image 20221208125954.png",
     "attachments/Pasted image 20221208125643.png",
     "attachments/Pasted image 20221208125530.png",
-    "00_notes/快速背单词--Excel法.md",
-    "02_编程/GitHub 上都有哪些值得关注学习的 Java 开源项目？.md",
-    "02_编程/Clowd.Squirrel.md",
-    "02_编程/vue+cesium/vue+cesium-01开发环境搭建.md",
-    "01_随笔/送礼感恩话术50条.md"
+    "00_notes/最近收集大约200多个后台常用公开免费api接口 （调用完全不限次数）.md",
+    "00_notes/LocalDateTime、LocalDate、Date、String相互转化大全及其注意事项.md",
+    "未命名",
+    "未命名.canvas",
+    "04_微信读书"
   ]
 }
