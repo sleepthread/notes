@@ -11,8 +11,12 @@
             "id": "7a49dc9181148e89",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "00_notes/12个中文+4个英文书籍资源网站.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00_notes/12个中文+4个英文书籍资源网站.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +101,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "00_notes/12个中文+4个英文书籍资源网站.md"
+              }
             }
           },
           {
@@ -145,18 +152,23 @@
   },
   "active": "7a49dc9181148e89",
   "lastOpenFiles": [
+    "00_notes/【Upscayl】开源图像放大修复工具（free）.md",
+    "00_notes/【狗蛋】搭建一个属于家庭服务器，硬件、软件、配置推荐【万字长文持续更新】.md",
+    "00_notes/go-zero.md",
+    "00_notes/初中班主任的忠告：但凡能考上重点高中的孩子，都是从初一开始规划的.md",
+    "00_notes/博客多平台发布收集资料.md",
+    "00_notes/边缘计算-薅羊毛.md",
+    "00_notes/12个中文+4个英文书籍资源网站.md",
     "00_notes/重磅推荐：GitHub Top100  优质开源项目！.md",
     "00_notes/java生成word的几种方案 - 又见君 - 博客园.md",
     "00_notes/未命名 1.md",
     "00_notes/未命名.md",
     "00_notes/软件开发者常用的工具有那些.md",
-    "00_notes/初中班主任的忠告：但凡能考上重点高中的孩子，都是从初一开始规划的.md",
     "00_notes/Navicat16试用期过了 - EugeneDan - 博客园.md",
     "00_notes/有哪些好用的AI智能工具或软件推荐.md",
     "00_notes/关于账号安全的一些思考.md",
     "00_notes/有没有程序员愿意分享一下你的生活.md",
     "00_notes/类似Excel 前端表格控件.md",
-    "00_notes/【狗蛋】搭建一个属于家庭服务器，硬件、软件、配置推荐【万字长文持续更新】.md",
     "00_notes/ChatGPT 资源汇总.md",
     "00_notes/内网穿透 资源汇总.md",
     "00_notes/VUE ElementUI Form 复杂表单.md",
@@ -166,14 +178,9 @@
     "00_notes/2022年热销白酒建议入手价大全（史上最全）.md",
     "00_notes/静态博客和文档.md",
     "00_notes/CloudFare+Vercel.md",
-    "00_notes/一键放大！8 款免费好用的AI图像高清放大工具.md",
-    "00_notes/【Upscayl】开源图像放大修复工具（free）.md",
-    "00_notes/12个中文+4个英文书籍资源网站.md",
     "attachments/Pasted image 20221208125954.png",
     "attachments/Pasted image 20221208125643.png",
     "attachments/Pasted image 20221208125530.png",
-    "00_notes/最近收集大约200多个后台常用公开免费api接口 （调用完全不限次数）.md",
-    "00_notes/LocalDateTime、LocalDate、Date、String相互转化大全及其注意事项.md",
     "未命名",
     "未命名.canvas",
     "04_微信读书"

@@ -17,7 +17,7 @@
       "material"
     ],
     "icon": "material",
-    "iconVer": "1.26.0",
+    "iconVer": "1.27.0",
     "codeBlockThemeLight": "github",
     "codeBlockThemeDark": "base16/dracula",
     "lang": "zh_CN",
@@ -207,9 +207,6 @@
                         "rootId": "20200812220555-lj3enxa",
                         "scrollAttr": {
                           "endId": "20230428155440-s8hzxrz",
-                          "focusEnd": 6,
-                          "focusId": "20210428212840-859h45j",
-                          "focusStart": 6,
                           "rootId": "20200812220555-lj3enxa",
                           "scrollTop": 0,
                           "startId": "20210428212840-859h45j"
@@ -402,6 +399,7 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
+    "172.16.0.2",
     "192.168.19.18",
     "172.24.239.248",
     "169.254.135.39",
@@ -412,7 +410,9 @@
     "169.254.215.114",
     "169.254.47.175",
     "[::1]",
+    "[2606:4700:110:8594:a46d:31be:6105:703e]",
     "[fe80::f837:d5ec:edc4:7c5a]",
+    "[fe80::83b:d647:4bed:d388]",
     "[fe80::5378:e1c3:cb4:97fe]",
     "[fe80::8b29:254a:c7fc:4762]",
     "[fe80::94ed:2c96:1b40:9830]",
@@ -426,7 +426,7 @@
   "system": {
     "id": "b20970a8-b0cc-41d8-92c3-d8b65d844067",
     "name": "WIN-20230715SHA",
-    "kernelVersion": "2.11.0",
+    "kernelVersion": "2.11.1",
     "os": "windows",
     "osPlatform": "Microsoft Windows 10 Pro",
     "container": "std",
@@ -434,7 +434,7 @@
     "isInsider": false,
     "homeDir": "C:\\Users\\Administrator",
     "workspaceDir": "E:\\notes\\SiYuan",
-    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_2.11.0.0_x64__1qfd3tsw4ngc2\\app\\resources",
+    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_2.11.1.0_x64__1qfd3tsw4ngc2\\app\\resources",
     "confDir": "E:\\notes\\SiYuan\\conf",
     "dataDir": "E:\\notes\\SiYuan\\data",
     "networkServe": false,
@@ -1120,9 +1120,9 @@
   "stat": {
     "treeCount": 64,
     "cTreeCount": 100,
-    "blockCount": 2382,
+    "blockCount": 2371,
     "cBlockCount": 5000,
-    "dataSize": 3374859,
+    "dataSize": 3382329,
     "cDataSize": 104857600,
     "assetsSize": 2047235,
     "cAssetsSize": 104857600
