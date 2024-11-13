@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6f73e125cd22ee54",
+        "id": "80a75975053be810",
         "type": "tabs",
         "children": [
           {
-            "id": "1401c9dd28cf01da",
+            "id": "8e29d19a66a58cdd",
             "type": "leaf",
             "state": {
               "type": "empty",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -35,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -50,7 +54,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -58,7 +64,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -88,7 +96,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
             }
           },
           {
@@ -96,7 +106,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {},
+              "icon": "lucide-list",
+              "title": "大纲"
             }
           },
           {
@@ -104,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -112,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "custom-frames-微信读书",
-              "state": {}
+              "state": {},
+              "icon": "lucide-book",
+              "title": "微信读书"
             }
           },
           {
@@ -120,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -143,7 +161,7 @@
       "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "1401c9dd28cf01da",
+  "active": "8e29d19a66a58cdd",
   "lastOpenFiles": [
     "00_notes/PPT制作.md",
     "00_notes/讯飞开放平台.md",
