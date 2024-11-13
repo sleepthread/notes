@@ -4,20 +4,26 @@
     "mode": 0,
     "modeOS": true,
     "darkThemes": [
-      "midnight"
+      {
+        "name": "midnight",
+        "label": "midnight（默认主题）"
+      }
     ],
     "lightThemes": [
-      "daylight"
+      {
+        "name": "daylight",
+        "label": "daylight（默认主题）"
+      }
     ],
     "themeDark": "midnight",
     "themeLight": "daylight",
-    "themeVer": "1.0.5",
+    "themeVer": "1.0.7",
     "icons": [
       "ant",
       "material"
     ],
     "icon": "material",
-    "iconVer": "1.27.0",
+    "iconVer": "1.32.0",
     "codeBlockThemeLight": "github",
     "codeBlockThemeDark": "base16/dracula",
     "lang": "zh_CN",
@@ -26,6 +32,10 @@
     "hideStatusBar": false
   },
   "langs": [
+    {
+      "label": "Deutsch",
+      "name": "de_DE"
+    },
     {
       "label": "English",
       "name": "en_US"
@@ -37,6 +47,26 @@
     {
       "label": "Français",
       "name": "fr_FR"
+    },
+    {
+      "label": "עברית",
+      "name": "he_IL"
+    },
+    {
+      "label": "Inglese",
+      "name": "it_IT"
+    },
+    {
+      "label": "日本語",
+      "name": "ja_JP"
+    },
+    {
+      "label": "Polski",
+      "name": "pl_PL"
+    },
+    {
+      "label": "Русский",
+      "name": "ru_RU"
     },
     {
       "label": "繁體中文",
@@ -51,7 +81,9 @@
   "fileTree": {
     "alwaysSelectOpenedFile": false,
     "openFilesUseCurrentTab": false,
+    "refCreateSaveBox": "",
     "refCreateSavePath": "",
+    "docCreateSaveBox": "",
     "docCreateSavePath": "",
     "maxListCount": 512,
     "maxOpenTabCount": 8,
@@ -65,6 +97,7 @@
     "sort": 4
   },
   "editor": {
+    "allowHTMLBLockScript": false,
     "fontSize": 16,
     "fontSizeScrollZoom": false,
     "fontFamily": "",
@@ -87,6 +120,7 @@
     "readOnly": false,
     "embedBlockBreadcrumb": false,
     "listLogicalOutdent": false,
+    "listItemDotNumberClickFocus": false,
     "floatWindowMode": 0,
     "dynamicLoadBlocks": 192,
     "justify": false,
@@ -94,7 +128,15 @@
     "spellcheck": false,
     "onlySearchForDoc": false,
     "backlinkExpandCount": 8,
-    "backmentionExpandCount": 8
+    "backmentionExpandCount": 8,
+    "markdown": {
+      "inlineAsterisk": false,
+      "inlineUnderscore": false,
+      "inlineSup": false,
+      "inlineSub": false,
+      "inlineTag": false,
+      "inlineMath": false
+    }
   },
   "export": {
     "paragraphBeginningSpace": false,
@@ -109,7 +151,11 @@
     "pandocBin": "E:\\notes\\SiYuan\\temp\\pandoc\\bin\\pandoc.exe",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages",
-    "docxTemplate": ""
+    "docxTemplate": "",
+    "pdfWatermarkStr": "",
+    "pdfWatermarkDesc": "",
+    "imageWatermarkStr": "",
+    "imageWatermarkDesc": ""
   },
   "graph": {
     "maxBlocks": 10240,
@@ -189,7 +235,7 @@
               ],
               "direction": "tb",
               "instance": "Layout",
-              "size": "227px",
+              "size": "320px",
               "type": "left"
             },
             {
@@ -197,25 +243,8 @@
                 {
                   "children": [
                     {
-                      "active": true,
-                      "children": {
-                        "action": "",
-                        "blockId": "20200812220555-lj3enxa",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20210808180117-czj9bvb",
-                        "rootId": "20200812220555-lj3enxa",
-                        "scrollAttr": {
-                          "endId": "20230428155440-s8hzxrz",
-                          "rootId": "20200812220555-lj3enxa",
-                          "scrollTop": 0,
-                          "startId": "20210428212840-859h45j"
-                        }
-                      },
-                      "docIcon": "1f389",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "请从这里开始"
+                      "children": {},
+                      "instance": "Tab"
                     }
                   ],
                   "height": "",
@@ -283,7 +312,7 @@
             "hotkey": "⌥1",
             "hotkeyLangId": "fileTree",
             "icon": "iconFiles",
-            "show": true,
+            "show": false,
             "size": {
               "height": 0,
               "width": 227
@@ -307,7 +336,7 @@
             "hotkey": "⌥6",
             "hotkeyLangId": "inbox",
             "icon": "iconInbox",
-            "show": false,
+            "show": true,
             "size": {
               "height": 0,
               "width": 320
@@ -343,7 +372,7 @@
           }
         ]
       ],
-      "pin": true
+      "pin": false
     },
     "right": {
       "data": [
@@ -399,34 +428,25 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "172.16.0.2",
     "192.168.19.18",
     "172.24.239.248",
-    "169.254.135.39",
+    "169.254.122.134",
     "169.254.62.249",
     "169.254.116.148",
-    "169.254.47.186",
-    "169.254.128.208",
-    "169.254.215.114",
     "169.254.47.175",
     "[::1]",
-    "[2606:4700:110:8594:a46d:31be:6105:703e]",
-    "[fe80::f837:d5ec:edc4:7c5a]",
-    "[fe80::83b:d647:4bed:d388]",
+    "[fe80::7687:c034:a22a:f3cd]",
     "[fe80::5378:e1c3:cb4:97fe]",
     "[fe80::8b29:254a:c7fc:4762]",
     "[fe80::94ed:2c96:1b40:9830]",
-    "[fe80::e02c:9110:4072:cd01]",
     "[fe80::5af4:5ee8:21b6:3e91]",
-    "[fe80::21aa:c286:cb78:4212]",
-    "[fe80::ac9e:68f5:569a:cc48]",
     "[fe80::ed17:5473:488d:49f9]"
   ],
   "accessAuthCode": "",
   "system": {
     "id": "b20970a8-b0cc-41d8-92c3-d8b65d844067",
     "name": "WIN-20230715SHA",
-    "kernelVersion": "2.11.1",
+    "kernelVersion": "3.1.9",
     "os": "windows",
     "osPlatform": "Microsoft Windows 10 Pro",
     "container": "std",
@@ -434,7 +454,7 @@
     "isInsider": false,
     "homeDir": "C:\\Users\\Administrator",
     "workspaceDir": "E:\\notes\\SiYuan",
-    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_2.11.1.0_x64__1qfd3tsw4ngc2\\app\\resources",
+    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.1.9.0_x64__1qfd3tsw4ngc2\\app\\resources",
     "confDir": "E:\\notes\\SiYuan\\conf",
     "dataDir": "E:\\notes\\SiYuan\\data",
     "networkServe": false,
@@ -446,12 +466,16 @@
     "uploadErrLog": false,
     "disableGoogleAnalytics": false,
     "downloadInstallPkg": true,
-    "autoLaunch": false,
+    "autoLaunch2": 0,
     "lockScreenMode": 0
   },
   "keymap": {
     "editor": {
       "general": {
+        "ai": {
+          "custom": "",
+          "default": ""
+        },
         "alignCenter": {
           "custom": "⌥C",
           "default": "⌥C"
@@ -512,6 +536,14 @@
           "custom": "⌘D",
           "default": "⌘D"
         },
+        "duplicateCompletely": {
+          "custom": "",
+          "default": ""
+        },
+        "exitFocus": {
+          "custom": "",
+          "default": ""
+        },
         "expand": {
           "custom": "⌘↓",
           "default": "⌘↓"
@@ -552,9 +584,17 @@
           "custom": "⌥.",
           "default": "⌥."
         },
+        "jumpToParent": {
+          "custom": "⇧⌘J",
+          "default": "⇧⌘J"
+        },
         "jumpToParentNext": {
           "custom": "⇧⌘N",
           "default": "⇧⌘N"
+        },
+        "jumpToParentPrev": {
+          "custom": "⇧⌘M",
+          "default": "⇧⌘M"
         },
         "moveToDown": {
           "custom": "⇧⌘↓",
@@ -563,6 +603,10 @@
         "moveToUp": {
           "custom": "⇧⌘↑",
           "default": "⇧⌘↑"
+        },
+        "netAssets2LocalAssets": {
+          "custom": "",
+          "default": ""
         },
         "netImg2LocalAsset": {
           "custom": "",
@@ -627,6 +671,10 @@
         "spaceRepetition": {
           "custom": "⌥F",
           "default": "⌥F"
+        },
+        "switchReadonly": {
+          "custom": "",
+          "default": ""
         },
         "undo": {
           "custom": "⌘Z",
@@ -716,6 +764,10 @@
           "custom": "⌘K",
           "default": "⌘K"
         },
+        "list": {
+          "custom": "",
+          "default": ""
+        },
         "mark": {
           "custom": "⌥D",
           "default": "⌥D"
@@ -723,6 +775,14 @@
         "memo": {
           "custom": "⌥⌘M",
           "default": "⌥⌘M"
+        },
+        "ordered-list": {
+          "custom": "",
+          "default": ""
+        },
+        "quote": {
+          "custom": "",
+          "default": ""
         },
         "ref": {
           "custom": "⌥[",
@@ -811,6 +871,10 @@
       }
     },
     "general": {
+      "addToDatabase": {
+        "custom": "",
+        "default": ""
+      },
       "backlinks": {
         "custom": "⌥7",
         "default": "⌥7"
@@ -1030,6 +1094,14 @@
       "toggleWin": {
         "custom": "⌥M",
         "default": "⌥M"
+      },
+      "unsplit": {
+        "custom": "",
+        "default": ""
+      },
+      "unsplitAll": {
+        "custom": "",
+        "default": ""
       }
     }
   },
@@ -1074,6 +1146,10 @@
     "htmlBlock": true,
     "embedBlock": false,
     "databaseBlock": true,
+    "audioBlock": false,
+    "videoBlock": false,
+    "iframeBlock": false,
+    "widgetBlock": false,
     "limit": 64,
     "caseSensitive": false,
     "name": true,
@@ -1099,6 +1175,7 @@
     "superBlock": true,
     "heading": true,
     "deck": false,
+    "reviewMode": 0,
     "requestRetention": 0.9,
     "maximumInterval": 36500,
     "weights": "0.40, 0.60, 2.40, 5.80, 4.93, 0.94, 0.86, 0.01, 1.49, 0.14, 0.94, 2.18, 0.05, 0.34, 1.26, 0.29, 2.61"
@@ -1110,7 +1187,12 @@
       "apiProxy": "",
       "apiModel": "gpt-3.5-turbo",
       "apiMaxTokens": 0,
-      "apiBaseURL": "https://api.openai.com/v1"
+      "apiTemperature": 1,
+      "apiMaxContexts": 7,
+      "apiBaseURL": "https://api.openai.com/v1",
+      "apiUserAgent": "SiYuan/3.1.9 std/windows",
+      "apiProvider": "OpenAI",
+      "apiVersion": ""
     }
   },
   "bazaar": {
@@ -1118,13 +1200,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 64,
+    "treeCount": 0,
     "cTreeCount": 100,
-    "blockCount": 2371,
+    "blockCount": 0,
     "cBlockCount": 5000,
-    "dataSize": 3382329,
+    "dataSize": 45062,
     "cDataSize": 104857600,
-    "assetsSize": 2047235,
+    "assetsSize": 0,
     "cAssetsSize": 104857600
   },
   "api": {
@@ -1134,7 +1216,20 @@
     "key": null,
     "syncIndexTiming": 12000
   },
+  "publish": {
+    "enable": false,
+    "port": 6808,
+    "auth": {
+      "enable": true,
+      "accounts": []
+    }
+  },
   "openHelp": false,
   "showChangelog": false,
-  "cloudRegion": 0
+  "cloudRegion": 0,
+  "snippet": {
+    "enabledCSS": true,
+    "enabledJS": true
+  },
+  "dataIndexState": 0
 }

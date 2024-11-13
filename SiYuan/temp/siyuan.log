@@ -125,3 +125,382 @@ I 2023/12/08 16:28:03 database.go:1218: closed database
 W 2023/12/08 16:28:17 blocktree.go:548: save block tree [size=672 kB] to [E:\notes\SiYuan\temp\blocktree], elapsed [13.81s]
 I 2023/12/08 16:28:17 conf.go:892: cleared workspace temp
 I 2023/12/08 16:28:17 sync.go:672: sync websocket closed
+I 2023/12/09 16:51:22 working.go:145: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/12/09 16:51:22 runtime.go:74: kernel is booting:
+    * ver [2.11.1]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [13576]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\WindowsApps\89C2A984.SiYuan_2.11.1.0_x64__1qfd3tsw4ngc2\app\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\notes\SiYuan]
+I 2023/12/09 16:51:22 conf.go:285: using Microsoft Store edition
+I 2023/12/09 16:51:22 runtime.go:128: use network proxy [system]
+I 2023/12/09 16:51:22 serve.go:119: kernel [pid=13576] http server [127.0.0.1:51944] is booting
+I 2023/12/09 16:51:22 blocktree.go:494: read block tree [672 kB] to [E:\notes\SiYuan\temp\blocktree], elapsed [0.03s]
+I 2023/12/09 16:51:22 conf.go:735: database size [9.7 MB], tree/block count [64/2382]
+I 2023/12/09 16:51:22 working.go:183: kernel booted
+I 2023/12/09 16:51:23 serve.go:132: reverse proxy server [127.0.0.1:6806] is booting
+I 2023/12/09 16:51:24 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/12/09 16:51:24 conf.go:957: pandoc initialized, set pandoc bin to [E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/12/09 16:51:24 box.go:79: auto stat [trees=0, blocks=0, dataSize=3.4 MB, assetsSize=2.0 MB]
+I 2023/12/09 16:51:24 disk.go:33: disk usage [total=322 GB, used=220 GB, free=102 GB]
+W 2023/12/09 16:51:24 box.go:117: found a corrupted box [E:\notes\SiYuan\data\20210808180117-czj9bvb]
+W 2023/12/09 16:51:25 box.go:145: fixed a corrupted box [E:\notes\SiYuan\data\20210808180117-czj9bvb]
+I 2023/12/09 16:51:25 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.41s], tree [count=64, size=1.2 MB]
+I 2023/12/09 16:51:39 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.05s], tree [count=64, size=1.2 MB]
+I 2023/12/09 16:51:39 index.go:206: resolved refs [29] in [47ms]
+W 2023/12/09 16:52:10 blocktree.go:548: save block tree [size=535 kB] to [E:\notes\SiYuan\temp\blocktree], elapsed [42.78s]
+W 2023/12/09 16:52:17 blocktree.go:548: save block tree [size=135 kB] to [E:\notes\SiYuan\temp\blocktree], elapsed [6.81s]
+I 2023/12/09 16:53:35 conf.go:497: exiting kernel [force=false, execInstallPkg=0]
+I 2023/12/09 16:53:35 database.go:1218: closed database
+I 2023/12/09 16:53:35 conf.go:892: cleared workspace temp
+I 2023/12/09 16:53:36 sync.go:672: sync websocket closed
+I 2023/12/13 10:34:12 working.go:145: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/12/13 10:34:12 runtime.go:74: kernel is booting:
+    * ver [2.11.1]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [18792]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\WindowsApps\89C2A984.SiYuan_2.11.1.0_x64__1qfd3tsw4ngc2\app\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\notes\SiYuan]
+I 2023/12/13 10:34:12 conf.go:285: using Microsoft Store edition
+I 2023/12/13 10:34:12 runtime.go:128: use network proxy [system]
+I 2023/12/13 10:34:12 serve.go:119: kernel [pid=18792] http server [127.0.0.1:60182] is booting
+I 2023/12/13 10:34:13 serve.go:132: reverse proxy server [127.0.0.1:6806] is booting
+I 2023/12/13 10:34:14 blocktree.go:494: read block tree [670 kB] to [E:\notes\SiYuan\temp\blocktree], elapsed [1.91s]
+I 2023/12/13 10:34:14 conf.go:735: database size [9.7 MB], tree/block count [64/2374]
+I 2023/12/13 10:34:14 working.go:183: kernel booted
+I 2023/12/13 10:34:15 box.go:79: auto stat [trees=0, blocks=0, dataSize=3.1 MB, assetsSize=2.0 MB]
+I 2023/12/13 10:34:15 disk.go:33: disk usage [total=322 GB, used=220 GB, free=102 GB]
+I 2023/12/13 10:34:16 index.go:133: rebuilt database for notebook [20210808180117-czj9bvb] in [0.17s], tree [count=64, size=1.2 MB]
+I 2023/12/13 10:34:19 conf.go:497: exiting kernel [force=false, execInstallPkg=0]
+I 2023/12/13 10:34:19 database.go:1218: closed database
+I 2023/12/13 10:34:20 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/12/13 10:34:20 conf.go:957: pandoc initialized, set pandoc bin to [E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+W 2023/12/13 10:34:33 blocktree.go:548: save block tree [size=672 kB] to [E:\notes\SiYuan\temp\blocktree], elapsed [13.21s]
+I 2023/12/13 10:34:33 conf.go:892: cleared workspace temp
+I 2023/12/13 10:34:33 sync.go:672: sync websocket closed
+I 2023/12/25 09:53:18 working.go:146: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2023/12/25 09:53:18 runtime.go:74: kernel is booting:
+    * ver [2.11.3]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [21980]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\WindowsApps\89C2A984.SiYuan_2.11.3.0_x64__1qfd3tsw4ngc2\app\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\notes\SiYuan]
+I 2023/12/25 09:53:18 conf.go:280: upgraded from version [2.11.1] to [2.11.3]
+I 2023/12/25 09:53:18 conf.go:316: using Microsoft Store edition
+I 2023/12/25 09:53:18 runtime.go:123: use network proxy [system]
+I 2023/12/25 09:53:18 serve.go:119: kernel [pid=21980] http server [127.0.0.1:61372] is booting
+I 2023/12/25 09:53:19 serve.go:132: reverse proxy server [127.0.0.1:6806] is booting
+I 2023/12/25 09:53:21 blocktree.go:495: read block tree [672 kB] to [E:\notes\SiYuan\temp\blocktree], elapsed [2.96s]
+I 2023/12/25 09:53:21 conf.go:765: database size [9.7 MB], tree/block count [64/2382]
+I 2023/12/25 09:53:21 working.go:192: kernel booted
+I 2023/12/25 09:53:21 conf.go:968: upgrading user guide box [20210808180117-czj9bvb]
+I 2023/12/25 09:53:22 box.go:76: auto stat [trees=64, blocks=2382, dataSize=3.4 MB, assetsSize=2.0 MB]
+I 2023/12/25 09:53:22 disk.go:33: disk usage [total=322 GB, used=221 GB, free=101 GB]
+I 2023/12/25 09:53:24 index.go:138: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=64, size=1.2 MB]
+I 2023/12/25 09:53:24 conf.go:980: upgraded user guide box [20210808180117-czj9bvb]
+I 2023/12/25 09:53:26 conf.go:529: exiting kernel [force=false, execInstallPkg=0]
+I 2023/12/25 09:53:26 database.go:1245: closed database
+I 2023/12/25 09:53:28 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2023/12/25 09:53:28 conf.go:990: pandoc initialized, set pandoc bin to [E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+W 2023/12/25 09:53:37 blocktree.go:552: save block tree [size=632 kB] to [E:\notes\SiYuan\temp\blocktree], elapsed [16.02s]
+I 2023/12/25 09:53:38 conf.go:923: cleared workspace temp
+I 2023/12/25 09:53:39 sync.go:693: sync websocket closed
+I 2023/12/25 09:53:39 conf.go:529: exiting kernel [force=false, execInstallPkg=0]
+I 2023/12/25 09:53:39 database.go:1245: closed database
+I 2023/12/25 09:53:39 conf.go:923: cleared workspace temp
+E 2023/12/25 09:53:39 working.go:490: remove workspace lock failed: remove E:\notes\SiYuan\.lock: The system cannot find the file specified.
+I 2024/01/23 10:43:55 working.go:146: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2024/01/23 10:43:55 runtime.go:74: kernel is booting:
+    * ver [2.12.3]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [5516]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\WindowsApps\89C2A984.SiYuan_2.12.3.0_x64__1qfd3tsw4ngc2\app\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\notes\SiYuan]
+I 2024/01/23 10:43:56 conf.go:276: upgraded from version [2.11.3] to [2.12.3]
+I 2024/01/23 10:43:56 conf.go:312: using Microsoft Store edition
+I 2024/01/23 10:43:56 runtime.go:123: use network proxy [system]
+I 2024/01/23 10:43:56 serve.go:115: kernel [pid=5516] http server [127.0.0.1:56675] is booting
+I 2024/01/23 10:43:57 serve.go:128: reverse proxy server [127.0.0.1:6806] is booting
+I 2024/01/23 10:43:59 blocktree.go:495: read block tree [670 kB] to [E:\notes\SiYuan\temp\blocktree], elapsed [2.48s]
+I 2024/01/23 10:43:59 conf.go:770: database size [9.7 MB], tree/block count [64/2376]
+I 2024/01/23 10:43:59 working.go:192: kernel booted
+I 2024/01/23 10:43:59 conf.go:978: upgrading user guide box [20210808180117-czj9bvb]
+W 2024/01/23 10:43:59 box.go:114: found a corrupted box [E:\notes\SiYuan\data\20210808180117-czj9bvb]
+W 2024/01/23 10:44:00 box.go:142: fixed a corrupted box [E:\notes\SiYuan\data\20210808180117-czj9bvb]
+I 2024/01/23 10:44:00 box.go:76: auto stat [trees=0, blocks=0, dataSize=3.4 MB, assetsSize=2.0 MB]
+I 2024/01/23 10:44:00 disk.go:33: disk usage [total=322 GB, used=239 GB, free=83 GB]
+I 2024/01/23 10:44:00 index.go:197: rebuilt database for notebook [20210808180117-czj9bvb] in [0.03s], tree [count=65, size=1.3 MB]
+I 2024/01/23 10:44:00 conf.go:990: upgraded user guide box [20210808180117-czj9bvb]
+I 2024/01/23 10:44:02 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2024/01/23 10:44:02 conf.go:1000: pandoc initialized, set pandoc bin to [E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2024/01/23 10:44:03 conf.go:525: exiting kernel [force=false, execInstallPkg=0]
+I 2024/01/23 10:44:03 database.go:1244: closed database
+W 2024/01/23 10:44:14 blocktree.go:552: save block tree [size=680 kB] to [E:\notes\SiYuan\temp\blocktree], elapsed [10.33s]
+I 2024/01/23 10:44:14 conf.go:933: cleared workspace temp
+I 2024/01/23 10:44:14 sync.go:695: sync websocket closed
+I 2024/02/22 16:09:40 working.go:146: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2024/02/22 16:09:40 runtime.go:74: kernel is booting:
+    * ver [3.0.0]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [8092]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\WindowsApps\89C2A984.SiYuan_3.0.0.0_x64__1qfd3tsw4ngc2\app\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\notes\SiYuan]
+I 2024/02/22 16:09:40 conf.go:278: upgraded from version [2.12.3] to [3.0.0]
+I 2024/02/22 16:09:40 conf.go:313: using Microsoft Store edition
+I 2024/02/22 16:09:40 runtime.go:123: use network proxy [system]
+I 2024/02/22 16:09:40 serve.go:115: kernel [pid=8092] http server [127.0.0.1:54138] is booting
+I 2024/02/22 16:09:41 serve.go:128: reverse proxy server [127.0.0.1:6806] is booting
+I 2024/02/22 16:09:44 blocktree.go:495: read block tree [680 kB] to [E:\notes\SiYuan\temp\blocktree], elapsed [3.03s]
+I 2024/02/22 16:09:44 conf.go:795: database size [9.7 MB], tree/block count [65/2418]
+I 2024/02/22 16:09:44 working.go:192: kernel booted
+I 2024/02/22 16:09:45 box.go:76: auto stat [trees=65, blocks=2418, dataSize=3.4 MB, assetsSize=2.0 MB]
+I 2024/02/22 16:09:45 disk.go:33: disk usage [total=322 GB, used=240 GB, free=82 GB]
+I 2024/02/22 16:09:46 conf.go:547: exiting kernel [force=false, execInstallPkg=0]
+I 2024/02/22 16:09:47 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2024/02/22 16:09:47 conf.go:1030: pandoc initialized, set pandoc bin to [E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2024/02/22 16:09:53 conf.go:1020: closed user guide box [20210808180117-czj9bvb]
+I 2024/02/22 16:09:53 database.go:1244: closed database
+W 2024/02/22 16:10:04 blocktree.go:552: save block tree [size=256 B] to [E:\notes\SiYuan\temp\blocktree], elapsed [15.62s]
+I 2024/02/22 16:10:04 conf.go:958: cleared workspace temp
+I 2024/02/22 16:10:05 sync.go:713: sync websocket closed
+I 2024/02/22 16:10:05 conf.go:547: exiting kernel [force=false, execInstallPkg=0]
+I 2024/02/22 16:10:05 database.go:1244: closed database
+I 2024/02/22 16:10:05 conf.go:958: cleared workspace temp
+E 2024/02/22 16:10:05 working.go:490: remove workspace lock failed: remove E:\notes\SiYuan\.lock: The system cannot find the file specified.
+I 2024/02/22 16:10:05 conf.go:603: exited kernel
+I 2024/03/25 19:43:07 working.go:146: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2024/03/25 19:43:07 runtime.go:74: kernel is booting:
+    * ver [3.0.4]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [12136]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\WindowsApps\89C2A984.SiYuan_3.0.4.0_x64__1qfd3tsw4ngc2\app\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\notes\SiYuan]
+I 2024/03/25 19:43:07 conf.go:278: upgraded from version [3.0.0] to [3.0.4]
+I 2024/03/25 19:43:07 conf.go:313: using Microsoft Store edition
+I 2024/03/25 19:43:07 runtime.go:123: use network proxy [system]
+I 2024/03/25 19:43:07 serve.go:115: kernel [pid=12136] http server [127.0.0.1:53875] is booting
+I 2024/03/25 19:43:08 serve.go:128: reverse proxy server [127.0.0.1:6806] is booting
+I 2024/03/25 19:43:08 blocktree.go:495: read block tree [256 B] to [E:\notes\SiYuan\temp\blocktree], elapsed [0.70s]
+I 2024/03/25 19:43:08 conf.go:807: database size [9.7 MB], tree/block count [0/0]
+I 2024/03/25 19:43:08 working.go:192: kernel booted
+I 2024/03/25 19:43:09 box.go:76: auto stat [trees=0, blocks=0, dataSize=45 kB, assetsSize=0 B]
+I 2024/03/25 19:43:09 disk.go:33: disk usage [total=322 GB, used=244 GB, free=78 GB]
+I 2024/03/25 19:43:10 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2024/03/25 19:43:10 conf.go:1051: pandoc initialized, set pandoc bin to [E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2024/03/25 19:43:17 conf.go:547: exiting kernel [force=false, execInstallPkg=0]
+I 2024/03/25 19:43:17 database.go:1244: closed database
+I 2024/03/25 19:43:17 conf.go:970: cleared workspace temp
+I 2024/03/25 19:43:18 sync.go:712: sync websocket closed
+I 2024/03/25 19:43:18 conf.go:615: exited kernel
+I 2024/04/04 10:54:48 working.go:146: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2024/04/04 10:54:48 runtime.go:74: kernel is booting:
+    * ver [3.0.6]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [19428]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\WindowsApps\89C2A984.SiYuan_3.0.6.0_x64__1qfd3tsw4ngc2\app\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\notes\SiYuan]
+I 2024/04/04 10:54:48 conf.go:278: upgraded from version [3.0.4] to [3.0.6]
+I 2024/04/04 10:54:48 conf.go:313: using Microsoft Store edition
+I 2024/04/04 10:54:48 runtime.go:123: use network proxy [system]
+I 2024/04/04 10:54:48 serve.go:115: kernel [pid=19428] http server [127.0.0.1:56854] is booting
+I 2024/04/04 10:54:49 serve.go:128: reverse proxy server [127.0.0.1:6806] is booting
+I 2024/04/04 10:54:50 blocktree.go:495: read block tree [256 B] to [E:\notes\SiYuan\temp\blocktree], elapsed [0.90s]
+I 2024/04/04 10:54:50 conf.go:827: database size [9.7 MB], tree/block count [0/0]
+I 2024/04/04 10:54:50 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2024/04/04 10:54:50 conf.go:1071: pandoc initialized, set pandoc bin to [E:\notes\SiYuan\temp\pandoc\bin\pandoc.exe]
+I 2024/04/04 10:54:51 working.go:192: kernel booted
+I 2024/04/04 10:54:51 box.go:76: auto stat [trees=0, blocks=0, dataSize=45 kB, assetsSize=0 B]
+I 2024/04/04 10:54:51 disk.go:33: disk usage [total=322 GB, used=244 GB, free=78 GB]
+I 2024/04/04 10:54:57 conf.go:565: exiting kernel [force=false, setCurrentWorkspace=true, execInstallPkg=0]
+I 2024/04/04 10:54:57 database.go:1249: closed database
+I 2024/04/04 10:54:57 conf.go:990: cleared workspace temp
+I 2024/04/04 10:54:58 sync.go:712: sync websocket closed
+I 2024/04/04 10:54:59 conf.go:635: exited kernel
+I 2024/09/29 09:30:38 working.go:147: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2024/09/29 09:30:38 runtime.go:79: kernel is booting:
+    * ver [3.1.7]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [1832]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\WindowsApps\89C2A984.SiYuan_3.1.7.0_x64__1qfd3tsw4ngc2\app\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\notes\SiYuan]
+I 2024/09/29 09:30:38 conf.go:126: loaded conf [E:\notes\SiYuan\conf\conf.json]
+I 2024/09/29 09:30:38 conf.go:284: upgraded from version [3.0.6] to [3.1.7]
+I 2024/09/29 09:30:38 conf.go:319: using Microsoft Store edition
+I 2024/09/29 09:30:38 runtime.go:128: use network proxy [system]
+I 2024/09/29 09:30:38 serve.go:139: kernel [pid=1832] http server [127.0.0.1:50957] is booting
+I 2024/09/29 09:30:39 fixedport.go:35: fixed port service [127.0.0.1:6806] is running
+I 2024/09/29 09:30:42 blocktree.go:75: reinitialized database [E:\notes\SiYuan\temp\blocktree.db]
+I 2024/09/29 09:30:42 conf.go:835: database size [9.73 MB], tree/block count [0/0]
+I 2024/09/29 09:30:42 working.go:193: kernel booted
+I 2024/09/29 09:30:43 box.go:78: auto stat [trees=0, blocks=0, dataSize=45.07 kB, assetsSize=0 B]
+I 2024/09/29 09:30:43 disk.go:33: disk usage [total=322.13 GB, used=301.59 GB, free=20.54 GB]
+I 2024/09/29 09:30:59 conf.go:592: exiting kernel [force=false, setCurrentWorkspace=true, execInstallPkg=0]
+I 2024/09/29 09:30:59 database.go:1310: closed database
+I 2024/09/29 09:31:03 conf.go:1018: cleared workspace temp
+I 2024/09/29 09:31:03 sync.go:722: sync websocket closed
+I 2024/10/17 09:46:48 working.go:147: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2024/10/17 09:46:48 runtime.go:79: kernel is booting:
+    * ver [3.1.9]
+    * arch [amd64]
+    * os [Microsoft Windows 10 Pro]
+    * pid [10604]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\WindowsApps\89C2A984.SiYuan_3.1.9.0_x64__1qfd3tsw4ngc2\app\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [E:\notes\SiYuan]
+E 2024/10/17 09:46:49 conf.go:128: parse conf [E:\notes\SiYuan\conf\conf.json] failed: json: cannot unmarshal string into Go struct field Appearance.appearance.darkThemes of type conf.AppearanceTheme
+I 2024/10/17 09:46:49 conf.go:288: upgraded from version [3.1.7] to [3.1.9]
+I 2024/10/17 09:46:49 conf.go:323: using Microsoft Store edition
+I 2024/10/17 09:46:50 runtime.go:128: use network proxy [system]
+I 2024/10/17 09:46:50 serve.go:139: kernel [pid=10604] http server [127.0.0.1:54874] is booting
+I 2024/10/17 09:46:51 fixedport.go:35: fixed port service [127.0.0.1:6806] is running
+I 2024/10/17 09:47:02 conf.go:839: database size [9.73 MB], tree/block count [0/0]
+I 2024/10/17 09:47:02 working.go:193: kernel booted
+I 2024/10/17 09:47:03 box.go:76: auto stat [trees=0, blocks=0, dataSize=45.07 kB, assetsSize=0 B]
+I 2024/10/17 09:47:03 disk.go:33: disk usage [total=322.13 GB, used=274.03 GB, free=48.1 GB]
+I 2024/10/17 09:47:39 conf.go:596: exiting kernel [force=false, setCurrentWorkspace=true, execInstallPkg=0]
+I 2024/10/17 09:47:39 database.go:1310: closed database
+I 2024/10/17 09:47:39 conf.go:1022: cleared workspace temp
+I 2024/10/17 09:47:40 sync.go:725: sync websocket closed
+I 2024/10/17 09:47:40 conf.go:668: exited kernel
