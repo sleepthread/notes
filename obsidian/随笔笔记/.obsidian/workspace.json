@@ -4,20 +4,179 @@
     "type": "split",
     "children": [
       {
-        "id": "80a75975053be810",
+        "id": "72ded2857fe63309",
         "type": "tabs",
         "children": [
           {
-            "id": "8e29d19a66a58cdd",
+            "id": "0eccbe6c2d12b6a0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00_notes/ORACLE-操作.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "ORACLE-操作"
+            }
+          },
+          {
+            "id": "e4973e83948380b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_notes/QGIS相关点.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "QGIS相关点"
+            }
+          },
+          {
+            "id": "a26ad7d0147ea211",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_notes/140-oracle-迁移步骤.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "140-oracle-迁移步骤"
+            }
+          },
+          {
+            "id": "e150324a73b69f99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_notes/网站封装成exe.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "网站封装成exe"
+            }
+          },
+          {
+            "id": "74bb5792459b6d43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_notes/网页内容转Markdown工具.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "网页内容转Markdown工具"
+            }
+          },
+          {
+            "id": "650da4909713d1aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_notes/原型设计工具对比.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "原型设计工具对比"
+            }
+          },
+          {
+            "id": "fde37b5474e586f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_notes/AI-编程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI-编程"
+            }
+          },
+          {
+            "id": "46cd8c66162d1bcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_notes/需要收藏的网页.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "需要收藏的网页"
+            }
+          },
+          {
+            "id": "514511194c228e56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_notes/PPT总结技巧.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PPT总结技巧"
+            }
+          },
+          {
+            "id": "ce5aad9f3bb70d05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_notes/线上巡检系统.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "线上巡检系统"
+            }
+          },
+          {
+            "id": "8b264d4c560e5edd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_notes/鉴权5兄弟：cookie、session、token、jwt、单点登录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "鉴权5兄弟：cookie、session、token、jwt、单点登录"
+            }
+          },
+          {
+            "id": "6de29b1ef7c1900c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_notes/AI应用.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI应用"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -49,7 +208,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -89,6 +248,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00_notes/AI-编程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +258,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "AI-编程 的反向链接列表"
             }
           },
           {
@@ -106,9 +266,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "00_notes/AI-编程.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "AI-编程 的大纲"
             }
           },
           {
@@ -145,7 +307,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 533.5,
+    "width": 365.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -161,8 +323,27 @@
       "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "8e29d19a66a58cdd",
+  "active": "46cd8c66162d1bcb",
   "lastOpenFiles": [
+    "00_notes/PPT总结技巧.md",
+    "00_notes/需要收藏的网页.md",
+    "00_notes/用随机梯度下降来优化人生.md",
+    "00_notes/AI应用.md",
+    "00_notes/未命名.md",
+    "00_notes/AI-编程.md",
+    "00_notes/ORACLE-操作.md",
+    "00_notes/QGIS相关点.md",
+    "00_notes/140-oracle-迁移步骤.md",
+    "00_notes/网站封装成exe.md",
+    "00_notes/网页内容转Markdown工具.md",
+    "00_notes/原型设计工具对比.md",
+    "00_notes/线上巡检系统.md",
+    "00_notes/鉴权5兄弟：cookie、session、token、jwt、单点登录.md",
+    "00_notes/Genesis机器人物理引擎.md",
+    "00_notes/软件设计-方案-灵感-创意.md",
+    "00_notes/创建软连接.md",
+    "00_notes/AI-文生图.md",
+    "00_notes/文生图.md",
     "00_notes/PPT制作.md",
     "00_notes/讯飞开放平台.md",
     "00_notes/AI资料收集.md",
@@ -171,25 +352,7 @@
     "00_notes/宜春-智能语音交互模块.md",
     "00_notes/AI-小模型.md",
     "00_notes/FRP安装记录.md",
-    "00_notes/AI代码自动生成.md",
-    "00_notes/git常用命令.md",
-    "00_notes/git.md",
-    "00_notes/软件开发者常用的工具有那些.md",
-    "00_notes/window exe封装成服务.md",
-    "00_notes/wordpress专题.md",
-    "00_notes/博客多平台发布收集资料.md",
     "attachments/Pasted image 20240331095007.png",
-    "00_notes/本地同步软件.md",
-    "00_notes/边缘计算-薅羊毛.md",
-    "00_notes/2022年热销白酒建议入手价大全（史上最全）.md",
-    "00_notes/12个中文+4个英文书籍资源网站.md",
-    "00_notes/【Upscayl】开源图像放大修复工具（free）.md",
-    "00_notes/【狗蛋】搭建一个属于家庭服务器，硬件、软件、配置推荐【万字长文持续更新】.md",
-    "00_notes/初中班主任的忠告：但凡能考上重点高中的孩子，都是从初一开始规划的.md",
-    "00_notes/测试文档存放位置.md",
-    "00_notes/存放的一些地址.md",
-    "00_notes/写作AI和问答AI等.md",
-    "00_notes/java 函数.md",
     "attachments/Pasted image 20221208125954.png",
     "attachments/Pasted image 20221208125643.png",
     "attachments/Pasted image 20221208125530.png",
